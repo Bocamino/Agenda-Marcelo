@@ -1,0 +1,53 @@
+1) Esse vídeo me ajudou a lembrar como criar um servidor no pgAdmin4, justo com uns comandos
+básicos que eu havia esquecido.
+
+https://www.youtube.com/watch?v=WFT5MaZN6g4
+
+
+
+2) Tentei seguir o tutorial do Blog, maaaas sou muito lerdo e incapaz de fazer tal coisa. 
+ Me frustei e decidi improvisar. Pedi ajuda ao ChatGPT para me auxiliar com algo bem básico e
+funcional, com um passo a passo mais simples pra eu poder seguir, entender a aprender (os 
+comentários que ele cria ajudam a entender bastante).
+ Peço desculpas por não conseguir acompanhar seus Slides. A culpa é toda minha.
+
+https://docs.google.com/presentation/d/1U0xF18V_qgQaTAvZlsDeG6aEH1ojDAKN-12ndYbXTCs/edit#slide=id.g2d423cfb199_0_589
+https://docs.google.com/presentation/d/1Rd-ndg1VB1tKqHY6j7OpS9rDTYQyLcNQjo3suf7QpvQ/edit#slide=id.p
+https://docs.google.com/presentation/d/1epPl_n80u19aRd2_BRRENNXPX67T8NzGHVwF44IMlAM/edit#slide=id.g3082c8954cb_0_12
+
+
+
+3) Pedi ajuda pro ChatGPT. Segue histórico de comandos do Banco e da minha conversa com o Chat:
+
+---Histórico de comandos do Banco de Dados:
+CREATE TABLE Contatos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    telefone VARCHAR(15),
+    email VARCHAR(100)
+);
+
+---Após inserir um usuário dentro do NetBeans, eu executei mais esse comando:
+
+SELECT * FROM contatos;
+
+--- Tudo operacional!
+
+--- Histórico da conversa e alguns trouble shootings:
+(Os trouble shootings foram causados por mim mesmo pois fiz uma confusão chata com meu DB)
+
+https://chatgpt.com/share/672418ce-3688-8004-9807-4157d46fa1e0
+
+
+
+4) Rodando programa:
+
+Para rodar Console:
+"Run Project" (F6)
+
+Para rodar com Interface:
+Selecionar a classe "AgendaAPP" > Botão Direito > "Run File" (ou SHIFT + F6)
+
+
+
+Peço minhas mais humildes desculpas por não conseguir acompanhar...
